@@ -82,3 +82,7 @@ summary {
     padding: 20px;
     text-align: center;
 }
+input:focus {
+    border-color: blue;
+    outline: none;
+}
