@@ -1,10 +1,20 @@
+```css
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+/* Page styling */
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
+    background-color: #F4F7F5;
+    color: #333333;
+    line-height: 1.5;
 }
 
+/* Header */
 header {
     text-align: center;
+    margin-bottom: 20px;
 }
 
 header img {
@@ -12,77 +22,134 @@ header img {
     margin: 0 auto 10px;
 }
 
+/* Main heading */
 h1 {
     margin-bottom: 10px;
+    color: #1B5E20;
+    font-family: 'Merriweather', serif;
 }
 
+/* Section headings */
+h2 {
+    color: #2E7D32;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 15px;
+}
+
+/* Expense form section */
 .expense-section {
-    background-color: lightblue;
+    background-color: #FFFFFF;
     padding: 20px;
     margin: 20px;
+    border: 1px solid #D0D7D3;
     border-radius: 10px;
 }
 
-#expenses-list {
-    background-color: lightgray;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 10px;
-}
-
+/* Form inputs and dropdown */
 input,
 select {
-    padding: 8px;
-    margin-left: 10px;
+    padding: 10px;
+    margin: 8px 10px 8px 0;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
 }
 
+/* Input focus effect */
+input:focus,
+select:focus {
+    border-color: #2E7D32;
+    outline: none;
+}
+
+/* Button */
 button {
     padding: 10px 15px;
+    margin-top: 8px;
     cursor: pointer;
+    background-color: #43A047;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
 }
 
+/* Button hover effect */
+button:hover {
+    background-color: #1B5E20;
+}
+
+/* Expenses table section */
+#expenses-list {
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #D0D7D3;
+    border-radius: 10px;
+}
+
+/* Table */
 table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
 }
 
+/* Table cells */
 th,
 td {
-    border: 1px solid #ccc;
+    border: 1px solid #D0D7D3;
     padding: 12px;
     text-align: left;
 }
 
+/* Table header */
 th {
-    background-color: #4CAF50;
+    background-color: #2E7D32;
     color: white;
+    font-family: 'Merriweather', serif;
 }
 
+/* Alternating table rows */
 tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: #E8F5E9;
 }
 
+/* Table row hover */
 tbody tr:hover {
-    background-color: #e6f7ff;
+    background-color: #C8E6C9;
 }
 
+/* Instructions section */
 .instructions {
     margin: 20px;
-    padding: 10px;
+    padding: 15px;
+    border-radius: 10px;
 }
 
+/* Summary */
 summary {
     cursor: pointer;
     font-weight: bold;
+    color: #2E7D32;
 }
 
+/* Multimedia section */
 .multimedia-section {
     margin: 20px;
     padding: 20px;
     text-align: center;
+    background-color: #FFFFFF;
+    border: 1px solid #D0D7D3;
+    border-radius: 10px;
 }
-input:focus {
-    border-color: blue;
-    outline: none;
+
+/* Links */
+a {
+    color: #2E7D32;
 }
+
+a:hover {
+    color: #1B5E20;
+}
+```
